@@ -24,7 +24,7 @@ gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-typ
 echo '############ create system user #######'
 
 if [ $(id -u) -eq 0 ]; then
-	read -p "Enter username : " username
+	read -p "Enter username (better use vdi as username): " username
 	read -p "Enter password : " password
 	egrep "^$username" /etc/passwd >/dev/null
 	if [ $? -eq 0 ]; then
