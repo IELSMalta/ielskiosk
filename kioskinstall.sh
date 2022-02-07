@@ -24,11 +24,12 @@ gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-typ
 echo '############ create system user #######'
 
 if [ $(id -u) -eq 0 ]; then
-	read -p "Enter username vdi : " username
+	read -p "Enter username : " username
 	read -p "Enter password : " password
 	egrep "^$username" /etc/passwd >/dev/null
 	if [ $? -eq 0 ]; then
 		echo "$username exists!"
+		exit 1
 	else
 		pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
 		useradd -m -p "$pass" "$username"
@@ -37,7 +38,6 @@ if [ $(id -u) -eq 0 ]; then
 else
 	echo "Only root may add a user to the system."
 	exit 2
-  
 fi
 
 echo '################## permissions to sys user vdi ####################'
