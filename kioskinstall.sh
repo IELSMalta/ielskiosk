@@ -50,5 +50,5 @@ udevadm control --reload-rules
 mkdir /etc/ielskiosk
 mv ./kiosk.sh /etc/ielskiosk/kiosk.sh
 mv ./kiosk.service /lib/systemd/system/kiosk.service
-sudo systemctl enable kiosk.service
-sudo systemctl start kiosk.service
+#sudo systemctl enable kiosk.service
+#sudo systemctl start kiosk.service
