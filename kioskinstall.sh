@@ -1,10 +1,10 @@
 #!/bin/bash
-echo '################## update and upgrade #################''
+echo '################## update and upgrade #################'
 apt update
 apt upgrade 
-echo '################## install software and depend #########''
+echo '################## install software and depend #########'
 apt install freerdp2-x11 libavcodec-dev libasound2-dev libpulse-dev libxv-dev git xdotool -y
-echo '################## some ubuntu magic ####################''
+echo '################## some ubuntu magic ####################'
 gsettings set org.gnome.desktop.background picture-uri ""
 gsettings set org.gnome.desktop.background primary-color '#000000'
 xset s noblank
