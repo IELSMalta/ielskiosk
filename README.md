@@ -43,3 +43,5 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 28) mv ./kiosk.service /lib/systemd/system/kiosk.service
 29) #sudo systemctl enable kiosk.service
 30) #sudo systemctl start kiosk.service
+31) /etc/default/grub.     GRUB_CMDLINE_LINUX_DEFAULT="".  sudo update-grub2
+
