@@ -16,9 +16,11 @@ SOME DESKTOP CHANGES and improvements
 11) gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend'
 12) gsettings set org.gnome.desktop.background picture-uri ""
 13) gsettings set org.gnome.desktop.background primary-color '#000000'
-14) sudo apt purge apport
-15) systemctl stop cups-browsed
-16) systemctl disable cups-browsed
+14) gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+15) gsettings set org.gnome.shell.extensions.desktop-icons show-home false
+16) sudo apt purge apport
+17) systemctl stop cups-browsed
+18) systemctl disable cups-browsed
 
 
 LOGIN WITH ROOT and allow user vdi to namae usb device permissions 
