@@ -25,9 +25,9 @@ SOME DESKTOP CHANGES and improvements
 
 LOGIN WITH ROOT and allow user vdi to namae usb device permissions 
 
-usermod -aG sudo vdi
-usermod -aG plugdev vdi
-echo 'SUBSYSTEM=="usb", MODE="0660", GROUP="plugdev"' > /etc/udev/rules.d/00-usb-permissions.rules
+1 usermod -aG sudo vdi
+2 usermod -aG plugdev vdi
+3 echo 'SUBSYSTEM=="usb", MODE="0660", GROUP="plugdev"' > /etc/udev/rules.d/00-usb-permissions.rules
 udevadm control --reload-rules
 
 HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide-ubuntu-20-04/
