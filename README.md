@@ -36,4 +36,8 @@ change firewall status for ssh
 
 sudo ufw allow ssh
 sudo ufw enable
-
+mkdir /etc/ielskiosk
+mv ./kiosk.sh /etc/ielskiosk/kiosk.sh
+mv ./kiosk.service /lib/systemd/system/kiosk.service
+#sudo systemctl enable kiosk.service
+#sudo systemctl start kiosk.service
