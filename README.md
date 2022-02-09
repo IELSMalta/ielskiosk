@@ -25,21 +25,21 @@ SOME DESKTOP CHANGES and improvements
 
 LOGIN WITH ROOT and allow user vdi to namae usb device permissions 
 
-1 usermod -aG sudo vdi
-2 usermod -aG plugdev vdi
-3 echo 'SUBSYSTEM=="usb", MODE="0660", GROUP="plugdev"' > /etc/udev/rules.d/00-usb-permissions.rules
+19) usermod -aG sudo vdi
+20) usermod -aG plugdev vdi
+21) echo 'SUBSYSTEM=="usb", MODE="0660", GROUP="plugdev"' > /etc/udev/rules.d/00-usb-permissions.rules
 udevadm control --reload-rules
 
 HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide-ubuntu-20-04/
 
-remove all flags from the menu 
+22)remove all flags from the menu 
 
-change firewall status for ssh 
+23)change firewall status for ssh 
 
-sudo ufw allow ssh
-sudo ufw enable
-mkdir /etc/ielskiosk
-mv ./kiosk.sh /etc/ielskiosk/kiosk.sh
-mv ./kiosk.service /lib/systemd/system/kiosk.service
-#sudo systemctl enable kiosk.service
-#sudo systemctl start kiosk.service
+24) sudo ufw allow ssh
+25) sudo ufw enable
+26) mkdir /etc/ielskiosk
+27) mv ./kiosk.sh /etc/ielskiosk/kiosk.sh
+28) mv ./kiosk.service /lib/systemd/system/kiosk.service
+29) #sudo systemctl enable kiosk.service
+30) #sudo systemctl start kiosk.service
