@@ -1,4 +1,4 @@
 # ielskiosk
 IELS kiosk software
-Install a clean ubuntu desktop istance
-update
+1) Install a clean ubuntu desktop istance
+2) update
