@@ -44,4 +44,7 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 29) #sudo systemctl enable kiosk.service
 30) #sudo systemctl start kiosk.service
 31) /etc/default/grub.     GRUB_CMDLINE_LINUX_DEFAULT="".  sudo update-grub2
+32) gsettings set org.gnome.settings-daemon.plugins.power button-power 'shutdown'
+33) gnome-extensions disable ubuntu-dock@ubuntu.com
+
 
