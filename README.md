@@ -46,5 +46,7 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 31) /etc/default/grub.     GRUB_CMDLINE_LINUX_DEFAULT="".  sudo update-grub2
 32) gsettings set org.gnome.settings-daemon.plugins.power button-power 'shutdown'
 33) gnome-extensions disable ubuntu-dock@ubuntu.com
+34) https://www.q4os.org/forum/viewtopic.php?id=3267
+35) https://www.makeuseof.com/tag/customize-boot-splash-screen-logo-linux/
 
 
