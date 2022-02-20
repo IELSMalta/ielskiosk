@@ -48,5 +48,6 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 33) gnome-extensions disable ubuntu-dock@ubuntu.com
 34) https://www.q4os.org/forum/viewtopic.php?id=3267
 35) https://www.makeuseof.com/tag/customize-boot-splash-screen-logo-linux/
+36) https://serverfault.com/questions/422770/changing-the-login-timeout-for-windows-remote-desktop-services
 
 
