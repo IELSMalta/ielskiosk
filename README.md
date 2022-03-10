@@ -38,16 +38,17 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 
 24) sudo ufw allow ssh
 25) sudo ufw enable
-26) mkdir /etc/ielskiosk
-27) mv ./kiosk.sh /etc/ielskiosk/kiosk.sh
-28) mv ./kiosk.service /lib/systemd/system/kiosk.service
-29) #sudo systemctl enable kiosk.service
-30) #sudo systemctl start kiosk.service
+26) sudo mkdir /etc/ielskiosk
+27) sudo mv ./kiosk.sh /etc/ielskiosk/kiosk.sh
+28) sudo mv ./kiosk.service /lib/systemd/system/kiosk.service
+29) sudo systemctl enable kiosk.service
+30) sudo systemctl start kiosk.service
 31) /etc/default/grub.     GRUB_CMDLINE_LINUX_DEFAULT="".  sudo update-grub2
 32) gsettings set org.gnome.settings-daemon.plugins.power button-power 'shutdown'
 33) gnome-extensions disable ubuntu-dock@ubuntu.com
 34) https://www.q4os.org/forum/viewtopic.php?id=3267
 35) https://www.makeuseof.com/tag/customize-boot-splash-screen-logo-linux/
 36) https://serverfault.com/questions/422770/changing-the-login-timeout-for-windows-remote-desktop-services
+37) sudo bash -c 'echo "Hidden=true" >> /etc/xdg/autostart/update-notifier.desktop'
 
 
