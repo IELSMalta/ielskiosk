@@ -50,5 +50,6 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 35) https://www.makeuseof.com/tag/customize-boot-splash-screen-logo-linux/
 36) https://serverfault.com/questions/422770/changing-the-login-timeout-for-windows-remote-desktop-services
 37) sudo bash -c 'echo "Hidden=true" >> /etc/xdg/autostart/update-notifier.desktop'
+38) https://www.youtube.com/watch?v=TuDrmq4RQzU
 
 
