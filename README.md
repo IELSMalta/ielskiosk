@@ -65,7 +65,13 @@ sudo nano /etc/xdg/openbox/autostart
 sudo systemctl edit getty@tty1.service
 
 [Service]
+
+
 ExecStart=
+
+
 ExecStart=-/sbin/agetty --noissue --autologin myusername %I $TERM
+
+
 Type=idle
 
