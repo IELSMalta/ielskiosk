@@ -52,4 +52,19 @@ HIDE THE TOPBAR https://ubuntuhandbook.org/index.php/2020/08/top-panel-auto-hide
 37) sudo bash -c 'echo "Hidden=true" >> /etc/xdg/autostart/update-notifier.desktop'
 38) https://www.youtube.com/watch?v=TuDrmq4RQzU
 
+~~~~~~~~~~~~~~~
+Version Rasp Zero
+~~~~~~~~~~~~~~~~~
+
+https://www.apalrd.net/posts/2022/raspi_spice/
+
+sudo apt install xserver-xorg x11-xserver-utils xinit openbox
+sudo nano /etc/xdg/openbox/autostart
+
+sudo systemctl edit getty@tty1.service
+
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --noissue --autologin myusername %I $TERM
+Type=idle
 
