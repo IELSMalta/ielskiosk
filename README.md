@@ -59,6 +59,7 @@ Version Rasp Zero
 https://www.apalrd.net/posts/2022/raspi_spice/
 
 sudo apt install xserver-xorg x11-xserver-utils xinit openbox
+
 sudo nano /etc/xdg/openbox/autostart
 
 sudo systemctl edit getty@tty1.service
