@@ -75,3 +75,11 @@ ExecStart=-/sbin/agetty --noissue --autologin myusername %I $TERM
 
 Type=idle
 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://forum.slitaz.org/topic/disable-openbox-menu
+
+~@@@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
